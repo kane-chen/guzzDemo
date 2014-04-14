@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE guzz-mapping PUBLIC "-//GUZZ//GUZZ MAPPING DTD//EN" "http://www.guzz.org/dtd/guzz-mapping.dtd">
+<guzz-mapping>
+    <class name="com.lasho.guzz.domain.custom.SpecialProperty" table="tb_s_property">
+        <id name="id" type="int">
+             <generator class="native" />
+        </id>
+        <property name="cargoName" type="string" column="cargoName" />
+        <property name="propName" type="string" column="propName">
+        </property>
+        <property name="colName" type="string" column="colName">
+        </property>
+        <property name="dataType" type="string" column="dataType" />
+    </class>
+</guzz-mapping>

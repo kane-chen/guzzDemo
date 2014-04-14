@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.lasho.guzz.domain.Message" table="tb_message">
+		<id name="id" type="int" column="id">
+			<generator class="native" />
+		</id>
+		<property name="userId" type="int" column="userId" />
+		<property name="content" type="string" column="content" />
+		<property name="createdTime" type="datetime" column="createdTime" />
+	</class>
+</hibernate-mapping>
